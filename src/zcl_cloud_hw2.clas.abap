@@ -14,7 +14,7 @@ ENDCLASS.
 
 CLASS zcl_cloud_hw2 IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
-        out->write( 'Hello World 2' ).
+        out->write( 'Hello World from cloud' ).
   ENDMETHOD.
 
 ENDCLASS.
